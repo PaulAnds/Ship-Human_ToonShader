@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader_test
+  m_Shader: {fileID: 4800000, guid: b31aa031d0e61934485008475bc760f1, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _CUSTOMAMBIENTLIGHTS_ON
+  - _LIGHTS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO_Texture:
+        m_Texture: {fileID: 2800000, guid: 0c02644cdb3475440b3c4f20fa122390, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Bodyguard_Mask_0_A:
+        m_Texture: {fileID: 2800000, guid: ef4c5acc99318ae4d8e3b60da9168c48, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Bodyguard_Mask_1_A:
+        m_Texture: {fileID: 2800000, guid: e1fd0f19f8ebbc64d9efecc3ea917db4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Bodyguard_Mask_2_A:
+        m_Texture: {fileID: 2800000, guid: d8bc3172b29b1e34a84d9bce6c8ca705, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Bodyguard_Mask_3_A:
+        m_Texture: {fileID: 2800000, guid: 8db38c78959ad0b43b01114e9bfc701b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Bodyguard_Mask_4_A:
+        m_Texture: {fileID: 2800000, guid: 96255b95831b1674db3a7201c7528296, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Bodyguard_Mask_5_A:
+        m_Texture: {fileID: 2800000, guid: 99e13a9330c09934fac0f667615c22c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Bodyguard_Normal:
+        m_Texture: {fileID: 2800000, guid: 97931d4271ac99f4a8718f252e1e9f4c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainText:
+        m_Texture: {fileID: 2800000, guid: 418615141e6970344ab49489d6351044, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTexture:
+        m_Texture: {fileID: 2800000, guid: 264cc9ef54d8bf54e9d4f41915055c57, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AO_Intensity: 0.71
+    - _AO_Step: 3.88
+    - _AscColor: 0
+    - _BeltColor: 0
+    - _CustomAmbientLights: 1
+    - _FaceColor: 0
+    - _InlineSize: 1.08
+    - _Lights: 1
+    - _NormalScale: 2.24
+    - _OutlineSize: 0.01
+    - _PantsColor: 0
+    - _ShadowStep: 6.55
+    - _ShirtColor: 0
+    - _SpecularSteps: 1.59
+    - _SpeculatePower: 6.9
+    - _Steps: 4
+    - _ToggleSwitch0: 0
+    - _ToggleSwitch1: 0
+    - _VestColor: 0
+    - __dirty: 0
+    m_Colors:
+    - _AO_Color: {r: 0.7372549, g: 0.35686272, b: 0.62784266, a: 0}
+    - _AscColor: {r: 1, g: 1, b: 1, a: 0}
+    - _BeltColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Color0: {r: 1, g: 1, b: 1, a: 0}
+    - _DKColor: {r: 1, g: 1, b: 1, a: 0}
+    - _FaceColor: {r: 1, g: 1, b: 1, a: 0}
+    - _InlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _MainColor: {r: 0.6037736, g: 0.50925386, b: 0.3446066, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _PantsColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ShadowColor: {r: 0, g: 0.043137312, b: 1, a: 0}
+    - _ShirtColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ShoesColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SpecularColor: {r: 1, g: 0.14638507, b: 0, a: 0}
+    - _VestColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

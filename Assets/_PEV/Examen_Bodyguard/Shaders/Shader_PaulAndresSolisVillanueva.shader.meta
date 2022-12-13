@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: b31aa031d0e61934485008475bc760f1
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Bodyguard_Normal: {fileID: 2800000, guid: 97931d4271ac99f4a8718f252e1e9f4c, type: 3}
+  - _AO_Texture: {fileID: 2800000, guid: 0c02644cdb3475440b3c4f20fa122390, type: 3}
+  - _SpecularTexture: {fileID: 2800000, guid: 264cc9ef54d8bf54e9d4f41915055c57, type: 3}
+  - _MainText: {fileID: 2800000, guid: 418615141e6970344ab49489d6351044, type: 3}
+  - _Bodyguard_Mask_0_A: {fileID: 2800000, guid: ef4c5acc99318ae4d8e3b60da9168c48, type: 3}
+  - _Bodyguard_Mask_5_A: {fileID: 2800000, guid: 99e13a9330c09934fac0f667615c22c7, type: 3}
+  - _Bodyguard_Mask_1_A: {fileID: 2800000, guid: e1fd0f19f8ebbc64d9efecc3ea917db4, type: 3}
+  - _Bodyguard_Mask_2_A: {fileID: 2800000, guid: d8bc3172b29b1e34a84d9bce6c8ca705, type: 3}
+  - _Bodyguard_Mask_3_A: {fileID: 2800000, guid: 8db38c78959ad0b43b01114e9bfc701b, type: 3}
+  - _Bodyguard_Mask_4_A: {fileID: 2800000, guid: 96255b95831b1674db3a7201c7528296, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
