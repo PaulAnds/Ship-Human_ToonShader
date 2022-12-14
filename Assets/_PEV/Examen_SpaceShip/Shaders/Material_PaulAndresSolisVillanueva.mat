@@ -7,10 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: shader
+  m_Name: Material_PaulAndresSolisVillanueva
   m_Shader: {fileID: 4800000, guid: a5336cfa8aba649ab87b0730672d9de5, type: 3}
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _RIMLIGHT_TOGGLE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -32,12 +33,12 @@ Material:
         m_Texture: {fileID: 2800000, guid: 8fc276bac0dd42d45b56f9de5cf70f0b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: 8fc276bac0dd42d45b56f9de5cf70f0b, type: 3}
+    - _SpecularTex:
+        m_Texture: {fileID: 2800000, guid: f38016b08b68efa409fc738f1bad346c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _TextureSample1:
-        m_Texture: {fileID: 2800000, guid: 21396ddfcd1194d11a345707eaabe8bb, type: 3}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TransicionTex:
@@ -52,24 +53,19 @@ Material:
     m_Floats:
     - _Cloaking: 0
     - _Emmesive_Intensity: 5
-    - _Grosor_Transicion: 1
-    - _Normal_Intensity: 5.67
-    - _Progress: 1
-    - _Refraction_Intensity: 0.004513069
-    - _RimLight_Toggle: 0
-    - _SpecularPower: 3
-    - _Specular_Intensity: 1
-    - _TransEmmisive_Intensity: 1.294118
-    - _Transicion_Width: 1
-    - _Width: 1
+    - _Normal_Intensity: 2
+    - _Refraction_Intensity: 0.07634199
+    - _RimLight_Toggle: 1
+    - _SpecularPower: 0.578
+    - _Specular_Intensity: 1.69
+    - _TransEmmisive_Intensity: 3.13
+    - _Transicion_Width: 0.378
     - __dirty: 0
-    - _refractionintensity: -0.01
     m_Colors:
-    - _Emmesive_Color: {r: 1, g: 1, b: 1, a: 0}
-    - _Invisibility_tint: {r: 0, g: 0.3698164, b: 0.972549, a: 1}
+    - _Emmesive_Color: {r: 0, g: 1, b: 0.015245914, a: 0}
+    - _Invisibility_tint: {r: 1, g: 1, b: 1, a: 1}
     - _Main_Tex_Color: {r: 1, g: 1, b: 1, a: 0}
-    - _RimLight_Color: {r: 1, g: 0, b: 0, a: 0}
-    - _SpecularColor: {r: 0.8867924, g: 0.1631364, b: 0.1631364, a: 0}
+    - _RimLight_Color: {r: 0, g: 1, b: 0.1295948, a: 0}
+    - _SpecularColor: {r: 0.0039215684, g: 0.13934232, b: 1, a: 0}
     - _Transicion_Color: {r: 0, g: 0.3981171, b: 1, a: 0}
-    - _tint: {r: 0.10588236, g: 0.17254902, b: 0.3529412, a: 1}
   m_BuildTextureStacks: []

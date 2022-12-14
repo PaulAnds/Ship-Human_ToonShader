@@ -3,8 +3,9 @@ guid: a5336cfa8aba649ab87b0730672d9de5
 ShaderImporter:
   externalObjects: {}
   defaultTextures:
-  - _Main_Tex: {fileID: 2800000, guid: cc8e67f05b81d374f9639b4ace3d78b1, type: 3}
   - _Normal_Map: {fileID: 2800000, guid: 8fc276bac0dd42d45b56f9de5cf70f0b, type: 3}
+  - _Main_Tex: {fileID: 2800000, guid: cc8e67f05b81d374f9639b4ace3d78b1, type: 3}
+  - _SpecularTex: {fileID: 2800000, guid: f38016b08b68efa409fc738f1bad346c, type: 3}
   - _Emmesive_Tex: {fileID: 2800000, guid: b30d9c999b067d040b70e1f848c7f691, type: 3}
   - _TransicionTex: {fileID: 2800000, guid: 21396ddfcd1194d11a345707eaabe8bb, type: 3}
   nonModifiableTextures: []
